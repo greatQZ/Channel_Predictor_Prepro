@@ -1,0 +1,29 @@
+# 忽略所有在 "data" 文件夹下的内容
+data/
+
+# 忽略所有在 "results" 文件夹下的内容
+results/
+
+# 也可以忽略特定类型的文件，无论它们在哪里
+# 例如，忽略所有的 .log 文件
+*.log
+
+# 忽略所有的 .tmp 或 .temp 文件
+*.tmp
+*.temp
+
+# 忽略特定的配置文件（如果它包含敏感信息且不应共享）
+# config_secret.ini
+
+# 忽略 Python 的虚拟环境文件夹 (常见的例子)
+venv/
+.venv/
+env/
+*.pyc
+__pycache__/
+
+# 忽略 IDE 或操作系统生成的文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
